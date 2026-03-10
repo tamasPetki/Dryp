@@ -1,0 +1,457 @@
+// dryp. water 2026.
+text-white
+text-base
+font-semibold
+font-['Poppins']
+leading-6
+---
+// Impresszum
+text-white
+text-base
+font-semibold
+font-['Poppins']
+leading-6
+---
+// ÁSZF
+text-white
+text-base
+font-semibold
+font-['Poppins']
+leading-6
+---
+// Designed by Freebeunique
+text-white
+text-base
+font-semibold
+font-['Poppins']
+leading-6
+---
+// Induljunk el!
+text-gray-700
+text-5xl
+font-medium
+font-['Poppins']
+---
+// Telepítés és támogatás: nem hagyunk magadra a rendszerrel, hogy a vízkérdést egyszer és hosszú távra rendezd.
+text-gray-700
+text-lg
+font-medium
+font-['Poppins']
+---
+// 1.
+text-white
+text-lg
+font-medium
+font-['Poppins']
+---
+// Felmérés
+text-slate-400
+text-lg
+font-medium
+font-['Poppins']
+---
+// 2.
+text-white
+text-lg
+font-medium
+font-['Poppins']
+---
+// Telepítés
+text-slate-400
+text-lg
+font-medium
+font-['Poppins']
+---
+// 3.
+text-white
+text-lg
+font-medium
+font-['Poppins']
+---
+// Beállítás
+text-slate-400
+text-lg
+font-medium
+font-['Poppins']
+---
+// 4.
+text-white
+text-lg
+font-medium
+font-['Poppins']
+---
+// Támogatás
+text-slate-400
+text-lg
+font-medium
+font-['Poppins']
+---
+// Kérj ingyenes konzultációt, és megnézzük, melyik DRYP megoldás illik a helyedhez.
+text-gray-700
+text-lg
+font-medium
+font-['Poppins']
+---
+// Ingyenes HoReCa konzultációra jelentkezem!
+text-gray-700
+text-lg
+font-semibold
+font-['Poppins']
+---
+// DRYP HoReCa csomagok
+text-gray-700
+text-5xl
+font-medium
+font-['Poppins']
+---
+// Három csomag, különböző igényekre – ugyanazzal a stabil minőséggel és teljes<br/>körű támogatással.
+text-slate-400
+text-lg
+font-medium
+font-['Poppins']
+---
+// basic
+text-gray-700
+text-3xl
+font-medium
+font-['Poppins']
+---
+// Tisztított víz<br/>
+text-gray-700
+text-base
+font-medium
+font-['Poppins']
+---
+// Tiszta víz, egyszerűen.<br/>
+text-gray-700
+text-base
+font-bold
+font-['Poppins']
+---
+// Ideális választás azoknak a helyeknek, ahol a stabil minőség az első lépés.
+text-gray-700
+text-base
+font-medium
+font-['Poppins']
+---
+// Mit tartalmaz:
+text-gray-700
+text-base
+font-bold
+font-['Poppins']
+---
+// Ultrafiltrációs vízszűrő rendszer<br/>Klór- és szennyeződésmentes ivóvíz<br/>Éves karbantartás és szűrőcsere<br/>Palackok nélküli, helyben szűrt víz<br/>Üvegek: DRYP üvegek megvásárolhatók kedvezményesen<br/>
+text-gray-700
+text-base
+font-medium
+font-['Poppins']
+---
+// <br/>
+text-gray-700
+text-base
+font-medium
+font-['Poppins']
+---
+// Ha tiszta, jó ízű vizet szeretnél, felesleges bonyolítás nélkül.
+text-gray-700
+text-base
+font-bold
+font-['Poppins']
+---
+// Érdekel a PRO csomag
+text-gray-700
+text-lg
+font-semibold
+font-['Poppins']
+---
+// pro
+text-gray-700
+text-3xl
+font-medium
+font-['Poppins']
+---
+// Tisztított víz + szóda + üvegek<br/>
+text-gray-700
+text-base
+font-medium
+font-['Poppins']
+---
+// A vendéglátás alapértelmezett megoldása.
+text-gray-700
+text-base
+font-bold
+font-['Poppins']
+---
+// Bérelhető, komplett rendszer azoknak, akik már szódára is szükségük van.
+text-gray-700
+text-base
+font-medium
+font-['Poppins']
+---
+// Mit tartalmaz:
+text-gray-700
+text-base
+font-bold
+font-['Poppins']
+---
+// Ultrafiltrációs vízszűrő rendszer<br/>Tisztított ivóvíz + szóda<br/>Elegáns csapolótornyos megoldás<br/>Telepítés, szerviz, karbantartás<br/>Bérelhető konstrukció<br/>Üvegek: 10 db DRYP üveg ajándék / év<br/>
+text-gray-700
+text-base
+font-medium
+font-['Poppins']
+---
+// <br/>
+text-gray-700
+text-base
+font-medium
+font-['Poppins']
+---
+// Gyorsabb kiszolgálás, kevesebb logisztika, egységes minőség.
+text-gray-700
+text-base
+font-bold
+font-['Poppins']
+---
+// Érdekel a PRO csomag
+text-gray-700
+text-lg
+font-semibold
+font-['Poppins']
+---
+// premium
+text-gray-700
+text-3xl
+font-medium
+font-['Poppins']
+---
+// Tisztított víz + szóda + üvegek + több kiállás
+text-gray-700
+text-base
+font-medium
+font-['Poppins']
+---
+// Nagyobb forgalomra, komplex igényekre.
+text-gray-700
+text-base
+font-bold
+font-['Poppins']
+---
+// Ha több pult, több kiállás, több vendég van – akkor ez a rendszer dolgozik Neked.
+text-gray-700
+text-base
+font-medium
+font-['Poppins']
+---
+// Mit tartalmaz:
+text-gray-700
+text-base
+font-bold
+font-['Poppins']
+---
+// Több kiállásos, több rendszeres telepítés<br/>Ultrafiltrációs vízszűrő rendszer minden kiállásnál<br/>
+text-gray-700
+text-base
+font-medium
+font-['Poppins']
+---
+// Ivóvíz és szóda párhuzamos kiszolgálása<br/>
+text-gray-700
+text-base
+font-medium
+font-['Poppins']
+---
+// Teljes körű szerviz és karbantartás<br/>Testre szabott rendszerkialakítás<br/>Üvegek: Rendszerenként 15 db DRYP üveg ajándék / év
+text-gray-700
+text-base
+font-medium
+font-['Poppins']
+---
+// Skálázható megoldás prémium helyeknek és láncoknak.
+text-gray-700
+text-base
+font-bold
+font-['Poppins']
+---
+// Érdekel a PRO csomag
+text-gray-700
+text-lg
+font-semibold
+font-['Poppins']
+---
+// Egyszerű.<br/>Átlátható.<br/>Tervezhető.
+text-gray-700
+text-4xl
+font-medium
+font-['Poppins']
+---
+// telepítés után is 
+text-gray-700
+text-2xl
+font-medium
+font-['Poppins']
+---
+// elérhető támogatás
+text-slate-400
+text-2xl
+font-medium
+font-['Poppins']
+---
+// saját belső 
+text-gray-700
+text-2xl
+font-medium
+font-['Poppins']
+---
+// szervizcsapat
+text-slate-400
+text-2xl
+font-medium
+font-['Poppins']
+---
+//  300+ aktív 
+text-slate-400
+text-2xl
+font-medium
+font-['Poppins']
+---
+// HoReCa partner
+text-gray-700
+text-2xl
+font-medium
+font-['Poppins']
+---
+// 10+ év
+text-slate-400
+text-2xl
+font-medium
+font-['Poppins']
+---
+//  italtechnikai háttér
+text-gray-700
+text-2xl
+font-medium
+font-['Poppins']
+---
+// Ingyenes HoReCa konzultációra jelentkezem!
+text-gray-700
+text-lg
+font-semibold
+font-['Poppins']
+---
+// Miért a DRYP?
+text-gray-700
+text-5xl
+font-medium
+font-['Poppins']
+---
+// Több mint 10 éves italtechnikai tapasztalattal és 300+ aktív HoReCa partnerrel biztos szakmai hátteret nyújtunk. Saját szervizcsapatunk a telepítéstől kezdve a folyamatos támogatásig végigkíséri partnereinket.
+text-slate-400
+text-lg
+font-medium
+font-['Poppins']
+---
+// Tiszta ivóvíz
+text-white
+text-3xl
+font-medium
+font-['Poppins']
+---
+// Stabil minőség minden nap
+text-white
+text-3xl
+font-medium
+font-['Poppins']
+---
+// Ivóvíz és szóda<br/>egy rendszerben
+text-white
+text-3xl
+font-medium
+font-['Poppins']
+---
+// Professzionális telepítés és szerviz
+text-white
+text-3xl
+font-medium
+font-['Poppins']
+---
+// Kiszámítható költségek
+text-white
+text-3xl
+font-medium
+font-['Poppins']
+---
+// Bérelhető<br/>rendszer
+text-white
+text-3xl
+font-medium
+font-['Poppins']
+---
+// Mit kapsz a DRYP-pel?
+text-gray-700
+text-5xl
+font-medium
+font-['Poppins']
+---
+// A DRYP egy HoReCa-ra optimalizált víz- és szódarendszer, ami minden nap ugyanazt a tiszta, friss ízt adja – palackok nélkül.
+text-slate-400
+text-lg
+font-medium
+font-['Poppins']
+---
+// Tiszta víz. Vendéglátásra tervezve.
+text-gray-700
+text-5xl
+font-medium
+font-['Poppins']
+---
+// A DRYP egy modern, helyben szűrt ivóvíz- és szóda HoReCa-helyeknek. Palackos víz helyett. Telepítéssel, szervizzel.
+text-slate-400
+text-lg
+font-medium
+font-['Poppins']
+---
+// Ingyenes HoReCa konzultációra jelentkezem!
+text-gray-700
+text-lg
+font-semibold
+font-['Poppins']
+---
+// better water
+text-white
+text-[160px]
+font-normal
+font-['Poppins']
+---
+// better you
+text-gray-700
+text-6xl
+font-normal
+font-['Poppins']
+---
+// Mit?
+text-white
+text-base
+font-semibold
+font-['Poppins']
+leading-6
+---
+// Miért?
+text-white
+text-base
+font-semibold
+font-['Poppins']
+leading-6
+---
+// Hogyan?
+text-white
+text-base
+font-semibold
+font-['Poppins']
+leading-6
+---
+// Kapcsolat
+text-white
+text-base
+font-semibold
+font-['Poppins']
+leading-6
