@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="./index.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" />
+  	
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="dryp-web-design-landing-page-">
+    		<img class="d-icon" alt="">
+    		
+    		<div class="footer">
+      			<div class="container">
+        				<div class="logo">dryp. water 2026.</div>
+        				<div class="logo">Impresszum</div>
+        				<div class="container-child">
+        				</div>
+        				<div class="logo">ÁSZF</div>
+      			</div>
+      			<div class="designed-by-freebeunique">Designed by Freebeunique</div>
+    		</div>
+    		<div class="start">
+      			<div class="background-shape">
+      			</div>
+      			<div class="background-shape2">
+      			</div>
+      			<div class="container2">
+        				<div class="container3">
+          					<div class="title">Induljunk el!</div>
+          					<div class="container4">
+            						<div class="description">Telepítés és támogatás: nem hagyunk magadra a rendszerrel, hogy a vízkérdést egyszer és hosszú távra rendezd.</div>
+            						<div class="container5">
+              							<div class="step-container">
+                								<div class="step-number-container">
+                  									<div class="step-number">1.</div>
+                								</div>
+                								<div class="step-title">Felmérés</div>
+              							</div>
+              							<div class="step-container">
+                								<div class="step-number-container">
+                  									<div class="step-number">2.</div>
+                								</div>
+                								<div class="step-title">Telepítés</div>
+              							</div>
+              							<div class="step-container">
+                								<div class="step-number-container">
+                  									<div class="step-number">3.</div>
+                								</div>
+                								<div class="step-title">Beállítás</div>
+              							</div>
+              							<div class="step-container">
+                								<div class="step-number-container">
+                  									<div class="step-number">4.</div>
+                								</div>
+                								<div class="step-title">Támogatás</div>
+              							</div>
+            						</div>
+            						<div class="description">Kérj ingyenes konzultációt,<br>és megnézzük, melyik DRYP megoldás illik a helyedhez.</div>
+          					</div>
+        				</div>
+        				<div class="button-container">
+          					<div class="button-text">Ingyenes HoReCa konzultációra jelentkezem!</div>
+        				</div>
+      			</div>
+    		</div>
+    		<div class="csomagok">
+      			<img class="image-icon" alt="">
+      			
+      			<div class="header">
+        				<div class="title">DRYP HoReCa csomagok</div>
+        				<div class="header-subtitle">Három csomag, különböző igényekre – ugyanazzal a stabil minőséggel és teljes<br>körű támogatással.</div>
+      			</div>
+      			<div class="package">
+        				<div class="package-header">
+          					<img class="vector-icon" alt="">
+          					
+          					<div class="title">basic</div>
+        				</div>
+        				<div class="package-details">
+          					<div class="package-description">Tisztított víz<br></div>
+          					<div class="package-details-child">
+          					</div>
+          					<b class="package-note">Tiszta víz, egyszerűen.<br></b>
+          					<div class="package-details-child">
+          					</div>
+          					<div class="package-description">Ideális választás azoknak a helyeknek,<br>ahol a stabil minőség az első lépés.</div>
+          					<div class="package-details-child">
+          					</div>
+          					<b class="package-note">Mit tartalmaz:</b>
+          					<div class="package-features">
+            						<ul class="ultrafiltrcis-vzszr-rends">
+              							<li class="klr-s-szennyezdsmentes">Ultrafiltrációs vízszűrő rendszer</li>
+              							<li class="klr-s-szennyezdsmentes">Klór- és szennyeződésmentes ivóvíz</li>
+              							<li class="klr-s-szennyezdsmentes">Éves karbantartás és szűrőcsere</li>
+              							<li class="klr-s-szennyezdsmentes">Palackok nélküli, helyben szűrt víz</li>
+              							<li class="klr-s-szennyezdsmentes">Üvegek: DRYP üvegek megvásárolhatók kedvezményesen</li>
+            						</ul>
+            						<p class="blank-line">&nbsp;</p>
+          					</div>
+          					<div class="package-details-child">
+          					</div>
+          					<div class="package-footer">
+            						<b class="package-footer-text">Ha tiszta, jó ízű vizet szeretnél, felesleges bonyolítás nélkül.</b>
+            						<div class="button-container">
+              							<div class="button-text">Érdekel a PRO csomag</div>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+      			<div class="package2">
+        				<div class="package-header">
+          					<img class="vector-icon" alt="">
+          					
+          					<div class="title">pro</div>
+        				</div>
+        				<div class="package-details">
+          					<div class="package-description">Tisztított víz + szóda + üvegek<br></div>
+          					<div class="package-details-child">
+          					</div>
+          					<b class="package-note">A vendéglátás alapértelmezett megoldása.</b>
+          					<div class="package-details-child">
+          					</div>
+          					<div class="package-description">Bérelhető, komplett rendszer azoknak,<br>akik már szódára is szükségük van.</div>
+          					<div class="package-details-child">
+          					</div>
+          					<b class="package-note">Mit tartalmaz:</b>
+          					<div class="package-features">
+            						<ul class="ultrafiltrcis-vzszr-rends">
+              							<li class="klr-s-szennyezdsmentes">Ultrafiltrációs vízszűrő rendszer</li>
+              							<li class="klr-s-szennyezdsmentes">Tisztított ivóvíz + szóda</li>
+              							<li class="klr-s-szennyezdsmentes">Elegáns csapolótornyos megoldás</li>
+              							<li class="klr-s-szennyezdsmentes">Telepítés, szerviz, karbantartás</li>
+              							<li class="klr-s-szennyezdsmentes">Bérelhető konstrukció</li>
+              							<li class="klr-s-szennyezdsmentes">Üvegek: 10 db DRYP üveg ajándék / év</li>
+            						</ul>
+            						<p class="blank-line">&nbsp;</p>
+          					</div>
+          					<div class="package-details-child">
+          					</div>
+          					<div class="package-footer">
+            						<b class="package-footer-text">Gyorsabb kiszolgálás, kevesebb logisztika, egységes minőség.</b>
+            						<div class="button-container">
+              							<div class="button-text">Érdekel a PRO csomag</div>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+      			<div class="package3">
+        				<div class="package-header">
+          					<img class="vector-icon" alt="">
+          					
+          					<div class="title">premium</div>
+        				</div>
+        				<div class="package-details">
+          					<div class="package-description">Tisztított víz + szóda + üvegek + több kiállás</div>
+          					<div class="package-details-child">
+          					</div>
+          					<b class="package-note">Nagyobb forgalomra, komplex igényekre.</b>
+          					<div class="package-details-child">
+          					</div>
+          					<div class="package-description">Ha több pult, több kiállás, több vendég van – akkor ez a rendszer dolgozik Neked.</div>
+          					<div class="package-details-child">
+          					</div>
+          					<b class="package-note">Mit tartalmaz:</b>
+          					<div class="package-features">
+            						<ul class="ultrafiltrcis-vzszr-rends">
+              							<li class="klr-s-szennyezdsmentes">
+                								<span class="tbb-killsos-tbb">Több kiállásos, több rendszeres telepítés</span>
+              							</li>
+              							<li class="klr-s-szennyezdsmentes">
+                								<span class="tbb-killsos-tbb">Ultrafiltrációs vízszűrő rendszer minden kiállásnál</span>
+              							</li>
+              							<li class="klr-s-szennyezdsmentes">
+                								<span class="ivvz-s-szda">Ivóvíz és szóda párhuzamos kiszolgálása</span>
+              							</li>
+              							<li class="klr-s-szennyezdsmentes">
+                								<span class="tbb-killsos-tbb">Teljes körű szerviz és karbantartás</span>
+              							</li>
+              							<li class="klr-s-szennyezdsmentes">
+                								<span class="tbb-killsos-tbb">Testre szabott rendszerkialakítás</span>
+              							</li>
+              							<li>
+                								<span class="tbb-killsos-tbb">Üvegek: Rendszerenként 15 db DRYP üveg ajándék / év</span>
+              							</li>
+            						</ul>
+          					</div>
+          					<div class="package-details-child">
+          					</div>
+          					<div class="package-footer">
+            						<b class="package-footer-text">Skálázható megoldás prémium helyeknek és láncoknak.</b>
+            						<div class="button-container">
+              							<div class="button-text">Érdekel a PRO csomag</div>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+    		</div>
+    		<div class="mirt">
+      			<div class="plus">
+        				<div class="d-render">
+          					<div class="ellipse">
+          					</div>
+          					<img class="mask-group-icon" alt="">
+          					
+          					<div class="egyszer-tlthat-tervezhet">Egyszerű.<br>Átlátható.<br>Tervezhető.</div>
+        				</div>
+        				<div class="t4">
+          					<div class="telepts-utn-is-container">
+            						<span>telepítés után is </span>
+            						<span class="elrhet-tmogats">elérhető támogatás</span>
+          					</div>
+        				</div>
+        				<div class="t3">
+          					<div class="sajt-bels-szervizcsapat-container">
+            						<span>saját belső </span>
+            						<span class="elrhet-tmogats">szervizcsapat</span>
+          					</div>
+        				</div>
+        				<div class="t2">
+          					<div class="sajt-bels-szervizcsapat-container">
+            						<span> 300+ aktív </span>
+            						<span class="horeca-partner">HoReCa partner</span>
+          					</div>
+        				</div>
+        				<div class="t1">
+          					<div class="sajt-bels-szervizcsapat-container">
+            						<span>10+ év</span>
+            						<span class="horeca-partner"> italtechnikai háttér</span>
+          					</div>
+        				</div>
+        				<img class="lines-icon" alt="">
+        				
+      			</div>
+      			<div class="button">
+        				<div class="button-text">Ingyenes HoReCa konzultációra jelentkezem!</div>
+      			</div>
+      			<img class="photo-icon" alt="">
+      			
+      			<div class="text">
+        				<div class="title">Miért a DRYP?</div>
+        				<div class="header-subtitle">Több mint 10 éves italtechnikai tapasztalattal és 300+ aktív HoReCa partnerrel biztos szakmai hátteret nyújtunk. Saját szervizcsapatunk a telepítéstől kezdve a folyamatos támogatásig végigkíséri partnereinket.</div>
+      			</div>
+    		</div>
+    		<div class="mit">
+      			<img class="bg-6-icon" alt="">
+      			
+      			<img class="bg-5-icon" alt="">
+      			
+      			<img class="bg-4-icon" alt="">
+      			
+      			<img class="bg-3-icon" alt="">
+      			
+      			<img class="bg-2-icon" alt="">
+      			
+      			<img class="bg-1-icon" alt="">
+      			
+      			<div class="texticons">
+        				<div class="tiszta-ivvz">Tiszta ivóvíz</div>
+        				<div class="stabil-minsg-minden">Stabil minőség minden nap</div>
+        				<div class="ivvz-s-szda2">Ivóvíz és szóda<br>egy rendszerben</div>
+        				<div class="professzionlis-telepts-s">Professzionális telepítés és szerviz</div>
+        				<div class="kiszmthat-kltsgek">Kiszámítható költségek</div>
+        				<div class="brelhet-rendszer">Bérelhető<br>rendszer</div>
+        				<img class="interface-weather-rain-drop-d-icon" alt="">
+        				
+        				<img class="interface-favorite-heart-rewa-icon" alt="">
+        				
+        				<img class="interface-edit-flll-color-buc-icon" alt="">
+        				
+        				<img class="interface-upload-laptop-arrow-icon" alt="">
+        				
+        				<img class="interface-arrows-reload-2-arr-icon" alt="">
+        				
+        				<img class="money-cash-dollar-coin-accoun-icon" alt="">
+        				
+      			</div>
+      			<div class="text2">
+        				<div class="title">Mit kapsz a DRYP-pel?</div>
+        				<div class="header-subtitle">A DRYP egy HoReCa-ra optimalizált víz- és szódarendszer,<br>ami minden nap ugyanazt a tiszta, friss ízt adja – palackok nélkül.</div>
+      			</div>
+    		</div>
+    		<div class="message">
+      			<img class="photo-icon2" alt="">
+      			
+      			<div class="text-button">
+        				<div class="text3">
+          					<div class="title">Tiszta víz. Vendéglátásra tervezve.</div>
+          					<div class="header-subtitle">A DRYP egy modern, helyben szűrt ivóvíz- és szóda HoReCa-helyeknek.<br>Palackos víz helyett. Telepítéssel, szervizzel.</div>
+        				</div>
+        				<div class="button-container">
+          					<div class="button-text">Ingyenes HoReCa konzultációra jelentkezem!</div>
+        				</div>
+      			</div>
+    		</div>
+    		<div class="hero">
+      			<img class="hero-icon" alt="">
+      			
+      			<div class="hero-effect">
+      			</div>
+      			<div class="light">
+      			</div>
+      			<div class="headline">better water</div>
+      			<img class="hero-3d-bottle-icon" alt="">
+      			
+      			<div class="better">better you</div>
+    		</div>
+    		<div class="menu">
+      			<div class="syndicast-men">
+        				<img class="vector-icon4" alt="">
+        				
+        				<div class="menu2">
+          					<div class="logo">Mit?</div>
+          					<div class="logo">Miért?</div>
+          					<div class="logo">Hogyan?</div>
+          					<div class="logo">Kapcsolat</div>
+        				</div>
+      			</div>
+    		</div>
+  	</div>
+  	
+  	
+  	
+  	
+</body>
+</html>
