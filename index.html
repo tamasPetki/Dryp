@@ -1,313 +1,333 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>dryp. — better water, better you</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dryp. — better water, better you</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-  <!-- 01_Menu -->
-  <header class="menu-wrapper">
-    <nav class="menu-bar">
-      <img src="assets/logo.svg" alt="dryp." class="logo">
-      <ul class="menu-items">
-        <li><a href="#mit">Mit?</a></li>
-        <li><a href="#miert">Miért?</a></li>
-        <li><a href="#hogyan">Hogyan?</a></li>
-        <li><a href="#kapcsolat">Kapcsolat</a></li>
-      </ul>
-    </nav>
-  </header>
+    <!-- 01_Menu -->
+    <header class="menu-wrapper">
+        <nav class="menu-bar">
+            <img src="assets/logo.svg" alt="dryp." class="logo">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+            <label for="menu-toggle" class="menu-toggle-label" aria-label="Menü">
+                <span></span><span></span><span></span>
+            </label>
+            <ul class="menu-items">
+                <li><a href="#mit">Mit?</a></li>
+                <li><a href="#miert">Miért?</a></li>
+                <li><a href="#hogyan">Hogyan?</a></li>
+                <li><a href="#kapcsolat">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <!-- 01_Hero -->
-  <section class="hero">
-    <div class="hero-bg-container">
-      <img src="assets/hero_3d_bg.png" alt="" class="hero-bg-img">
-    </div>
-    <div class="hero-effect"></div>
-    <div class="hero-light">
-      <img src="assets/light.svg" alt="" class="hero-light-img">
-    </div>
-    <h1 class="hero-headline">better water</h1>
-    <div class="hero-bottle-container">
-      <img src="assets/hero_3d_bottle.png" alt="DRYP bottle" class="hero-bottle-img">
-    </div>
-    <p class="hero-subheadline">better you</p>
-  </section>
+    <!-- 01_Hero -->
+    <section class="hero">
+        <div class="hero-bg-container">
+            <img src="assets/hero_3d_bg.png" alt="" class="hero-bg-img">
+        </div>
+        <div class="hero-effect"></div>
+        <div class="hero-light">
+            <img src="assets/light.svg" alt="" class="hero-light-img">
+        </div>
+        <div class="hero-text">
+            <h1 class="hero-headline">better water</h1>
+            <p class="hero-subheadline">better you</p>
+        </div>
+        <div class="hero-bottle-container">
+            <img src="assets/hero_3d_bottle.png" alt="DRYP bottle" class="hero-bottle-img">
+        </div>
+    </section>
 
-  <!-- 03_Message -->
-  <section class="message-section">
-    <div class="message-content">
-      <div class="message-text">
-        <h2 class="section-title">Tiszta víz. Vendéglátásra tervezve.</h2>
-        <p class="section-subtitle">A DRYP egy modern, helyben szűrt ivóvíz- és szóda HoReCa-helyeknek.<br>Palackos víz helyett. Telepítéssel, szervizzel.</p>
-      </div>
-      <a href="#kapcsolat" class="btn-gradient">Ingyenes HoReCa konzultációra jelentkezem!</a>
-    </div>
-    <div class="message-photo">
-      <img src="assets/photo6.png" alt="" class="message-photo-img">
-    </div>
-  </section>
-
-  <!-- 04_Mit -->
-  <section class="mit-section" id="mit">
-    <div class="mit-header">
-      <h2 class="section-title">Mit kapsz a DRYP-pel?</h2>
-      <p class="section-subtitle">A DRYP egy HoReCa-ra optimalizált víz- és szódarendszer,<br>ami minden nap ugyanazt a tiszta, friss ízt adja – palackok nélkül.</p>
-    </div>
-    <div class="mit-grid">
-      <div class="mit-card">
-        <img src="assets/01.png" alt="" class="mit-card-bg">
-        <div class="mit-card-content">
-          <p class="mit-card-title">Tiszta ivóvíz</p>
-          <img src="assets/icon_water_drop.svg" alt="" class="mit-card-icon">
-        </div>
-      </div>
-      <div class="mit-card">
-        <img src="assets/rectangle3222.png" alt="" class="mit-card-bg">
-        <div class="mit-card-content">
-          <p class="mit-card-title">Stabil minőség minden nap</p>
-          <img src="assets/icon_heart.svg" alt="" class="mit-card-icon">
-        </div>
-      </div>
-      <div class="mit-card">
-        <img src="assets/rectangle3224.png" alt="" class="mit-card-bg">
-        <div class="mit-card-content">
-          <p class="mit-card-title">Ivóvíz és szóda<br>egy rendszerben</p>
-          <img src="assets/icon_paint.svg" alt="" class="mit-card-icon">
-        </div>
-      </div>
-      <div class="mit-card">
-        <img src="assets/rectangle3225.png" alt="" class="mit-card-bg">
-        <div class="mit-card-content">
-          <p class="mit-card-title">Professzionális telepítés és szerviz</p>
-          <img src="assets/icon_upload.svg" alt="" class="mit-card-icon">
-        </div>
-      </div>
-      <div class="mit-card">
-        <img src="assets/rectangle3228.png" alt="" class="mit-card-bg">
-        <div class="mit-card-content">
-          <p class="mit-card-title">Kiszámítható költségek</p>
-          <img src="assets/icon_dollar.svg" alt="" class="mit-card-icon">
-        </div>
-      </div>
-      <div class="mit-card">
-        <img src="assets/rectangle3229.png" alt="" class="mit-card-bg">
-        <div class="mit-card-content">
-          <p class="mit-card-title">Bérelhető<br>rendszer</p>
-          <img src="assets/icon_reload.svg" alt="" class="mit-card-icon">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 05_Miért -->
-  <section class="miert-section" id="miert">
-    <div class="miert-header">
-      <h2 class="section-title">Miért a DRYP?</h2>
-      <p class="section-subtitle">Több mint 10 éves italtechnikai tapasztalattal és 300+ aktív HoReCa partnerrel biztos szakmai hátteret nyújtunk. Saját szervizcsapatunk a telepítéstől kezdve a folyamatos támogatásig végigkíséri partnereinket.</p>
-    </div>
-    <div class="miert-photo">
-      <img src="assets/photo5.png" alt="" class="miert-photo-img">
-    </div>
-    <a href="#kapcsolat" class="btn-gradient miert-btn">Ingyenes HoReCa konzultációra jelentkezem!</a>
-
-    <div class="miert-plus">
-      <div class="miert-3d-render">
-        <div class="miert-ellipse-outer">
-          <img src="assets/ellipse.svg" alt="" class="miert-ellipse-svg">
-        </div>
-        <div class="miert-bottle-masked">
-          <img src="assets/photo4.png" alt="" class="miert-bottle-img">
-        </div>
-        <div class="miert-center-text">
-          <p>Egyszerű.</p>
-          <p>Átlátható.</p>
-          <p>Tervezhető.</p>
-        </div>
-      </div>
-
-      <div class="miert-lines">
-        <img src="assets/lines.svg" alt="" class="miert-lines-svg">
-      </div>
-
-      <div class="miert-label miert-t1">
-        <p><span class="text-gray">10+ év</span> italtechnikai háttér</p>
-      </div>
-      <div class="miert-label miert-t2">
-        <p><span class="text-gray"> 300+ aktív </span>HoReCa partner</p>
-      </div>
-      <div class="miert-label miert-t3">
-        <p>saját belső <span class="text-gray">szervizcsapat</span></p>
-      </div>
-      <div class="miert-label miert-t4">
-        <p>telepítés után is <span class="text-gray">elérhető támogatás</span></p>
-      </div>
-    </div>
-  </section>
-
-  <!-- 06_Csomagok -->
-  <section class="csomagok-section" id="hogyan">
-    <div class="csomagok-header">
-      <h2 class="section-title">DRYP HoReCa csomagok</h2>
-      <p class="section-subtitle">Három csomag, különböző igényekre – ugyanazzal a stabil minőséggel és teljes<br>körű támogatással.</p>
-    </div>
-    <div class="csomagok-grid">
-      <!-- Basic -->
-      <div class="package package-basic">
-        <div class="package-header">
-          <img src="assets/vector_dryp.svg" alt="dryp." class="package-logo">
-          <p class="package-title">basic</p>
-        </div>
-        <div class="package-details">
-          <p class="package-desc">Tisztított víz<br>&nbsp;</p>
-          <div class="package-divider"></div>
-          <p class="package-note"><strong>Tiszta víz, egyszerűen.</strong><br>&nbsp;</p>
-          <div class="package-divider"></div>
-          <p class="package-desc">Ideális választás azoknak a helyeknek,<br>ahol a stabil minőség az első lépés.</p>
-          <div class="package-divider"></div>
-          <p class="package-note"><strong>Mit tartalmaz:</strong></p>
-          <ul class="package-features">
-            <li>Ultrafiltrációs vízszűrő rendszer</li>
-            <li>Klór- és szennyeződésmentes ivóvíz</li>
-            <li>Éves karbantartás és szűrőcsere</li>
-            <li>Palackok nélküli, helyben szűrt víz</li>
-            <li>Üvegek: DRYP üvegek megvásárolhatók kedvezményesen</li>
-          </ul>
-          <div class="package-divider"></div>
-          <div class="package-footer">
-            <p class="package-footer-text"><strong>Ha tiszta, jó ízű vizet szeretnél, felesleges bonyolítás nélkül.</strong></p>
-            <a href="#kapcsolat" class="btn-gradient package-btn">Érdekel a PRO csomag</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Pro -->
-      <div class="package package-pro">
-        <div class="package-header">
-          <img src="assets/vector_dryp.svg" alt="dryp." class="package-logo">
-          <p class="package-title">pro</p>
-        </div>
-        <div class="package-details">
-          <p class="package-desc">Tisztított víz + szóda + üvegek<br>&nbsp;</p>
-          <div class="package-divider"></div>
-          <p class="package-note"><strong>A vendéglátás alapértelmezett megoldása.</strong></p>
-          <div class="package-divider"></div>
-          <p class="package-desc">Bérelhető, komplett rendszer azoknak,<br>akik már szódára is szükségük van.</p>
-          <div class="package-divider"></div>
-          <p class="package-note"><strong>Mit tartalmaz:</strong></p>
-          <ul class="package-features">
-            <li>Ultrafiltrációs vízszűrő rendszer</li>
-            <li>Tisztított ivóvíz + szóda</li>
-            <li>Elegáns csapolótornyos megoldás</li>
-            <li>Telepítés, szerviz, karbantartás</li>
-            <li>Bérelhető konstrukció</li>
-            <li>Üvegek: 10 db DRYP üveg ajándék / év</li>
-          </ul>
-          <div class="package-divider"></div>
-          <div class="package-footer">
-            <p class="package-footer-text"><strong>Gyorsabb kiszolgálás, kevesebb logisztika, egységes minőség.</strong></p>
-            <a href="#kapcsolat" class="btn-gradient package-btn">Érdekel a PRO csomag</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Premium -->
-      <div class="package package-premium">
-        <div class="package-header">
-          <img src="assets/vector_dryp.svg" alt="dryp." class="package-logo">
-          <p class="package-title">premium</p>
-        </div>
-        <div class="package-details">
-          <p class="package-desc">Tisztított víz + szóda + üvegek + több kiállás</p>
-          <div class="package-divider"></div>
-          <p class="package-note"><strong>Nagyobb forgalomra, komplex igényekre.</strong></p>
-          <div class="package-divider"></div>
-          <p class="package-desc">Ha több pult, több kiállás, több vendég van – akkor ez a rendszer dolgozik Neked.</p>
-          <div class="package-divider"></div>
-          <p class="package-note"><strong>Mit tartalmaz:</strong></p>
-          <ul class="package-features">
-            <li>Több kiállásos, több rendszeres telepítés</li>
-            <li>Ultrafiltrációs vízszűrő rendszer minden kiállásnál</li>
-            <li>Ivóvíz és szóda párhuzamos kiszolgálása</li>
-            <li>Teljes körű szerviz és karbantartás</li>
-            <li>Testre szabott rendszerkialakítás</li>
-            <li>Üvegek: Rendszerenként 15 db DRYP üveg ajándék / év</li>
-          </ul>
-          <div class="package-divider"></div>
-          <div class="package-footer">
-            <p class="package-footer-text"><strong>Skálázható megoldás prémium helyeknek és láncoknak.</strong></p>
-            <a href="#kapcsolat" class="btn-gradient package-btn">Érdekel a PRO csomag</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="csomagok-bottom-image">
-      <img src="assets/image.png" alt="" class="csomagok-bottom-img">
-    </div>
-  </section>
-
-  <!-- 07_Start -->
-  <section class="start-section" id="kapcsolat">
-    <div class="start-bg-gradient"></div>
-    <div class="start-bg-white"></div>
-    <div class="start-content">
-      <div class="start-top">
-        <h2 class="section-title">Induljunk el!</h2>
-        <div class="start-inner">
-          <p class="start-desc">Telepítés és támogatás: nem hagyunk magadra a rendszerrel, hogy a vízkérdést egyszer és hosszú távra rendezd.</p>
-          <div class="start-steps">
-            <div class="step">
-              <span class="step-number">1.</span>
-              <span class="step-title">Felmérés</span>
+    <!-- 03_Message -->
+    <section class="message-section">
+        <div class="message-content">
+            <div class="message-text">
+                <h2 class="section-title">Tiszta víz. Vendéglátásra tervezve.</h2>
+                <p class="section-subtitle">A DRYP egy modern, helyben szűrt ivóvíz- és szóda
+                    HoReCa-helyeknek.<br>Palackos víz helyett. Telepítéssel, szervizzel.</p>
             </div>
-            <div class="step">
-              <span class="step-number">2.</span>
-              <span class="step-title">Telepítés</span>
-            </div>
-            <div class="step">
-              <span class="step-number">3.</span>
-              <span class="step-title">Beállítás</span>
-            </div>
-            <div class="step">
-              <span class="step-number">4.</span>
-              <span class="step-title">Támogatás</span>
-            </div>
-          </div>
-          <p class="start-desc">Kérj ingyenes konzultációt,<br>és megnézzük, melyik DRYP megoldás illik a helyedhez.</p>
+            <a href="#kapcsolat" class="btn-gradient">Ingyenes HoReCa konzultációra jelentkezem!</a>
         </div>
-      </div>
-      <a href="#kapcsolat" class="btn-gradient">Ingyenes HoReCa konzultációra jelentkezem!</a>
-    </div>
-  </section>
+        <div class="message-photo">
+            <img src="assets/photo6.png" alt="" class="message-photo-img">
+        </div>
+    </section>
 
-  <!-- 09_3D Bottom -->
-  <section class="bottom-3d-section">
-    <div class="bottom-3d-effect"></div>
-    <div class="bottom-3d-masked">
-      <img src="assets/photo1.png" alt="" class="bottom-3d-img">
-    </div>
-    <div class="bottom-3d-masked-lower">
-      <img src="assets/photo3.png" alt="" class="bottom-3d-img-lower">
-    </div>
-  </section>
+    <!-- 04_Mit -->
+    <section class="mit-section" id="mit">
+        <div class="mit-header">
+            <h2 class="section-title">Mit kapsz a DRYP-pel?</h2>
+            <p class="section-subtitle">A DRYP egy HoReCa-ra optimalizált víz- és szódarendszer,<br>ami minden nap
+                ugyanazt a tiszta, friss ízt adja – palackok nélkül.</p>
+        </div>
+        <div class="mit-grid">
+            <div class="mit-card">
+                <img src="assets/01.png" alt="" class="mit-card-bg">
+                <div class="mit-card-content">
+                    <p class="mit-card-title">Tiszta ivóvíz</p>
+                    <img src="assets/icon_water_drop.svg" alt="" class="mit-card-icon">
+                </div>
+            </div>
+            <div class="mit-card">
+                <img src="assets/rectangle3222.png" alt="" class="mit-card-bg">
+                <div class="mit-card-content">
+                    <p class="mit-card-title">Stabil minőség minden nap</p>
+                    <img src="assets/icon_heart.svg" alt="" class="mit-card-icon">
+                </div>
+            </div>
+            <div class="mit-card">
+                <img src="assets/rectangle3224.png" alt="" class="mit-card-bg">
+                <div class="mit-card-content">
+                    <p class="mit-card-title">Ivóvíz és szóda<br>egy rendszerben</p>
+                    <img src="assets/icon_paint.svg" alt="" class="mit-card-icon">
+                </div>
+            </div>
+            <div class="mit-card">
+                <img src="assets/rectangle3225.png" alt="" class="mit-card-bg">
+                <div class="mit-card-content">
+                    <p class="mit-card-title">Professzionális telepítés és szerviz</p>
+                    <img src="assets/icon_upload.svg" alt="" class="mit-card-icon">
+                </div>
+            </div>
+            <div class="mit-card">
+                <img src="assets/rectangle3228.png" alt="" class="mit-card-bg">
+                <div class="mit-card-content">
+                    <p class="mit-card-title">Kiszámítható költségek</p>
+                    <img src="assets/icon_dollar.svg" alt="" class="mit-card-icon">
+                </div>
+            </div>
+            <div class="mit-card">
+                <img src="assets/rectangle3229.png" alt="" class="mit-card-bg">
+                <div class="mit-card-content">
+                    <p class="mit-card-title">Bérelhető<br>rendszer</p>
+                    <img src="assets/icon_reload.svg" alt="" class="mit-card-icon">
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- 08_Footer -->
-  <footer class="footer">
-    <div class="footer-left">
-      <span>dryp. water 2026.</span>
-      <span>Impresszum</span>
-      <span class="footer-divider"></span>
-      <span>ÁSZF</span>
-    </div>
-    <span class="footer-right">Designed by Freebeunique</span>
-  </footer>
+    <!-- 05_Miért -->
+    <section class="miert-section" id="miert">
+        <div class="miert-header">
+            <h2 class="section-title">Miért a DRYP?</h2>
+            <p class="section-subtitle">Több mint 10 éves italtechnikai tapasztalattal és 300+ aktív HoReCa partnerrel
+                biztos szakmai hátteret nyújtunk. Saját szervizcsapatunk a telepítéstől kezdve a folyamatos támogatásig
+                végigkíséri partnereinket.</p>
+        </div>
+        <div class="miert-photo">
+            <img src="assets/photo5.png" alt="" class="miert-photo-img">
+        </div>
+        <a href="#kapcsolat" class="btn-gradient miert-btn">Ingyenes HoReCa konzultációra jelentkezem!</a>
+
+        <div class="miert-plus">
+            <div class="miert-3d-render">
+                <div class="miert-ellipse-outer">
+                    <img src="assets/ellipse.svg" alt="" class="miert-ellipse-svg">
+                </div>
+                <div class="miert-bottle-masked">
+                    <img src="assets/photo4.png" alt="" class="miert-bottle-img">
+                </div>
+                <div class="miert-center-text">
+                    <p>Egyszerű.</p>
+                    <p>Átlátható.</p>
+                    <p>Tervezhető.</p>
+                </div>
+            </div>
+
+            <div class="miert-lines">
+                <img src="assets/lines.svg" alt="" class="miert-lines-svg">
+            </div>
+
+            <div class="miert-label miert-t1">
+                <p><span class="text-gray">10+ év</span> italtechnikai háttér</p>
+            </div>
+            <div class="miert-label miert-t2">
+                <p><span class="text-gray"> 300+ aktív </span>HoReCa partner</p>
+            </div>
+            <div class="miert-label miert-t3">
+                <p>saját belső <span class="text-gray">szervizcsapat</span></p>
+            </div>
+            <div class="miert-label miert-t4">
+                <p>telepítés után is <span class="text-gray">elérhető támogatás</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 06_Csomagok -->
+    <section class="csomagok-section" id="hogyan">
+        <div class="csomagok-header">
+            <h2 class="section-title">DRYP HoReCa csomagok</h2>
+            <p class="section-subtitle">Három csomag, különböző igényekre – ugyanazzal a stabil minőséggel és
+                teljes<br>körű támogatással.</p>
+        </div>
+        <div class="csomagok-grid">
+            <!-- Basic -->
+            <div class="package package-basic">
+                <div class="package-header">
+                    <img src="assets/vector_dryp.svg" alt="dryp." class="package-logo">
+                    <p class="package-title">basic</p>
+                </div>
+                <div class="package-details">
+                    <p class="package-desc">Tisztított víz<br>&nbsp;</p>
+                    <div class="package-divider"></div>
+                    <p class="package-note"><strong>Tiszta víz, egyszerűen.</strong><br>&nbsp;</p>
+                    <div class="package-divider"></div>
+                    <p class="package-desc">Ideális választás azoknak a helyeknek,<br>ahol a stabil minőség az első
+                        lépés.</p>
+                    <div class="package-divider"></div>
+                    <p class="package-note"><strong>Mit tartalmaz:</strong></p>
+                    <ul class="package-features">
+                        <li>Ultrafiltrációs vízszűrő rendszer</li>
+                        <li>Klór- és szennyeződésmentes ivóvíz</li>
+                        <li>Éves karbantartás és szűrőcsere</li>
+                        <li>Palackok nélküli, helyben szűrt víz</li>
+                        <li>Üvegek: DRYP üvegek megvásárolhatók kedvezményesen</li>
+                    </ul>
+                    <div class="package-divider"></div>
+                    <div class="package-footer">
+                        <p class="package-footer-text"><strong>Ha tiszta, jó ízű vizet szeretnél, felesleges bonyolítás
+                                nélkül.</strong></p>
+                        <a href="#kapcsolat" class="btn-gradient package-btn">Érdekel a PRO csomag</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pro -->
+            <div class="package package-pro">
+                <div class="package-header">
+                    <img src="assets/vector_dryp.svg" alt="dryp." class="package-logo">
+                    <p class="package-title">pro</p>
+                </div>
+                <div class="package-details">
+                    <p class="package-desc">Tisztított víz + szóda + üvegek<br>&nbsp;</p>
+                    <div class="package-divider"></div>
+                    <p class="package-note"><strong>A vendéglátás alapértelmezett megoldása.</strong></p>
+                    <div class="package-divider"></div>
+                    <p class="package-desc">Bérelhető, komplett rendszer azoknak,<br>akik már szódára is szükségük van.
+                    </p>
+                    <div class="package-divider"></div>
+                    <p class="package-note"><strong>Mit tartalmaz:</strong></p>
+                    <ul class="package-features">
+                        <li>Ultrafiltrációs vízszűrő rendszer</li>
+                        <li>Tisztított ivóvíz + szóda</li>
+                        <li>Elegáns csapolótornyos megoldás</li>
+                        <li>Telepítés, szerviz, karbantartás</li>
+                        <li>Bérelhető konstrukció</li>
+                        <li>Üvegek: 10 db DRYP üveg ajándék / év</li>
+                    </ul>
+                    <div class="package-divider"></div>
+                    <div class="package-footer">
+                        <p class="package-footer-text"><strong>Gyorsabb kiszolgálás, kevesebb logisztika, egységes
+                                minőség.</strong></p>
+                        <a href="#kapcsolat" class="btn-gradient package-btn">Érdekel a PRO csomag</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Premium -->
+            <div class="package package-premium">
+                <div class="package-header">
+                    <img src="assets/vector_dryp.svg" alt="dryp." class="package-logo">
+                    <p class="package-title">premium</p>
+                </div>
+                <div class="package-details">
+                    <p class="package-desc">Tisztított víz + szóda + üvegek + több kiállás</p>
+                    <div class="package-divider"></div>
+                    <p class="package-note"><strong>Nagyobb forgalomra, komplex igényekre.</strong></p>
+                    <div class="package-divider"></div>
+                    <p class="package-desc">Ha több pult, több kiállás, több vendég van – akkor ez a rendszer dolgozik
+                        Neked.</p>
+                    <div class="package-divider"></div>
+                    <p class="package-note"><strong>Mit tartalmaz:</strong></p>
+                    <ul class="package-features">
+                        <li>Több kiállásos, több rendszeres telepítés</li>
+                        <li>Ultrafiltrációs vízszűrő rendszer minden kiállásnál</li>
+                        <li>Ivóvíz és szóda párhuzamos kiszolgálása</li>
+                        <li>Teljes körű szerviz és karbantartás</li>
+                        <li>Testre szabott rendszerkialakítás</li>
+                        <li>Üvegek: Rendszerenként 15 db DRYP üveg ajándék / év</li>
+                    </ul>
+                    <div class="package-divider"></div>
+                    <div class="package-footer">
+                        <p class="package-footer-text"><strong>Skálázható megoldás prémium helyeknek és
+                                láncoknak.</strong></p>
+                        <a href="#kapcsolat" class="btn-gradient package-btn">Érdekel a PRO csomag</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="csomagok-bottom-image">
+            <img src="assets/image.png" alt="" class="csomagok-bottom-img">
+        </div>
+    </section>
+
+    <!-- 07_Start -->
+    <section class="start-section" id="kapcsolat">
+        <div class="start-bg-gradient"></div>
+        <div class="start-bg-white"></div>
+        <div class="start-content">
+            <div class="start-top">
+                <h2 class="section-title">Induljunk el!</h2>
+                <div class="start-inner">
+                    <p class="start-desc">Telepítés és támogatás: nem hagyunk magadra a rendszerrel, hogy a vízkérdést
+                        egyszer és hosszú távra rendezd.</p>
+                    <div class="start-steps">
+                        <div class="step">
+                            <span class="step-number">1.</span>
+                            <span class="step-title">Felmérés</span>
+                        </div>
+                        <div class="step">
+                            <span class="step-number">2.</span>
+                            <span class="step-title">Telepítés</span>
+                        </div>
+                        <div class="step">
+                            <span class="step-number">3.</span>
+                            <span class="step-title">Beállítás</span>
+                        </div>
+                        <div class="step">
+                            <span class="step-number">4.</span>
+                            <span class="step-title">Támogatás</span>
+                        </div>
+                    </div>
+                    <p class="start-desc">Kérj ingyenes konzultációt,<br>és megnézzük, melyik DRYP megoldás illik a
+                        helyedhez.</p>
+                </div>
+            </div>
+            <a href="#kapcsolat" class="btn-gradient">Ingyenes HoReCa konzultációra jelentkezem!</a>
+        </div>
+    </section>
+
+    <!-- 09_3D Bottom -->
+    <section class="bottom-3d-section">
+        <div class="bottom-3d-effect">
+        </div>
+        <div class="bottom-3d-masked">
+            <img src="assets/photo1.png" alt="" class="bottom-3d-img">
+        </div>
+    </section>
+
+    <!-- 08_Footer -->
+    <footer class="footer">
+        <div class="footer-left">
+            <span>dryp. water 2026.</span>
+            <span>Impresszum</span>
+            <span class="footer-divider"></span>
+            <span>ÁSZF</span>
+        </div>
+        <span class="footer-right">Designed by Freebeunique</span>
+    </footer>
 
 </body>
+
 </html>
