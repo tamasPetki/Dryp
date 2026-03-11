@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRYP – Better Water, Better You</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        poppins: ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        'dryp-blue': '#414758',
+                        'dryp-gray': '#9099B1',
+                        'dryp-bg': '#F1F1F2',
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        * { font-family: 'Poppins', sans-serif; }
+        .gradient-btn {
+            background: linear-gradient(-90deg, #ede8ca 7.13%, #a7e7e8 100%);
+        }
+        .gradient-divider {
+            height: 1px;
+            background: linear-gradient(-90deg, #ede8ca, #a7e7e8);
+        }
+        .hero-gradient {
+            background: linear-gradient(180deg, #4377af 0%, rgba(165,218,229,0.35) 37%, rgba(191,218,223,0.17) 56%, rgba(255,255,255,0) 100%);
+        }
+        .pkg-basic {
+            background: linear-gradient(269deg, #c0d2e6 0.45%, #b5d0f9 74.62%);
+        }
+        .pkg-pro {
+            background: linear-gradient(90deg, #c0d2e6 0.82%, #a5dae5 99.86%);
+        }
+        .pkg-premium {
+            background: linear-gradient(-90deg, #ede8ca 28.77%, #a5dae5 99.81%);
+        }
+        .start-gradient {
+            background: linear-gradient(-33deg, #ede8ca 9.94%, rgba(165,218,229,0.35) 33.6%, #4377af 71.45%);
+        }
+    </style>
+</head>
+<body class="bg-dryp-bg overflow-x-hidden">
+
+    <!-- ===== 01 HERO ===== -->
+    <section class="relative h-[878px] overflow-hidden">
+        <!-- Hero background image -->
+        <img class="absolute top-0 left-1/2 -translate-x-1/2 w-[1560px] h-[878px] object-cover" src="public/images/hero-3-dbg.png" alt="">
+        <!-- Hero gradient overlay -->
+        <div class="hero-gradient absolute top-0 left-1/2 -translate-x-1/2 w-[1440px] h-[700px]"></div>
+        <!-- Light circle glow -->
+        <div class="absolute top-[146px] left-1/2 -translate-x-1/2 w-[494px] h-[494px] rounded-full blur-[120px]" style="background: linear-gradient(-90deg, #EDE8CA, #A7E7E8);"></div>
+        <!-- "better water" headline -->
+        <h1 class="absolute top-[149px] left-1/2 -translate-x-1/2 w-[1101px] text-center text-white text-[160px] font-normal leading-[112px] tracking-[-0.04em]">better water</h1>
+        <!-- Bottle overlay -->
+        <img class="absolute top-0 left-1/2 -translate-x-1/2 w-[1560px] h-[878px] object-cover" src="public/images/hero-3-d-bottle.png" alt="">
+        <!-- "better you" text -->
+        <div class="absolute top-[301px] left-[252px] text-dryp-blue text-[58px] font-normal">better you</div>
+
+        <!-- Navigation -->
+        <nav class="absolute top-0 left-0 w-full z-10 flex justify-center items-center h-[114px]">
+            <div class="w-[1140px] h-[60px] px-10 py-3.5 bg-white/10 rounded-[200px] flex justify-between items-center">
+                <img src="public/images/vector-1.svg" alt="DRYP" class="h-[33px] w-auto" style="filter: brightness(0) invert(1);">
+                <div class="flex items-center gap-10">
+                    <a href="#mit" class="text-white text-base font-semibold leading-6 hover:opacity-80 transition">Mit?</a>
+                    <a href="#miert" class="text-white text-base font-semibold leading-6 hover:opacity-80 transition">Miért?</a>
+                    <a href="#hogyan" class="text-white text-base font-semibold leading-6 hover:opacity-80 transition">Hogyan?</a>
+                    <a href="#kapcsolat" class="text-white text-base font-semibold leading-6 hover:opacity-80 transition">Kapcsolat</a>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- ===== 03 MESSAGE ===== -->
+    <section class="pt-2 pb-[53px] flex justify-center">
+        <div class="w-[840px] flex flex-col items-center gap-10 text-center">
+            <div class="flex flex-col items-center gap-[30px]">
+                <h2 class="text-dryp-blue text-[48px] font-medium leading-tight">Tiszta víz. Vendéglátásra tervezve.</h2>
+                <p class="text-dryp-gray text-lg font-medium">A DRYP egy modern, helyben szűrt ivóvíz- és szóda HoReCa-helyeknek.<br>Palackos víz helyett. Telepítéssel, szervizzel.</p>
+            </div>
+            <a href="#kapcsolat" class="gradient-btn px-10 py-[15px] rounded-[60px] text-dryp-blue text-lg font-semibold hover:shadow-lg hover:scale-105 transition-all">
+                Ingyenes HoReCa konzultációra jelentkezem!
+            </a>
+        </div>
+    </section>
+
+    <!-- Banner image -->
+    <div class="w-full overflow-hidden">
+        <img class="w-[1440px] h-[500px] object-cover mx-auto" src="public/images/image.png" alt="" style="box-shadow: 0px 4px 120px 4px rgba(191,218,223,1);">
+    </div>
+
+    <!-- ===== 04 MIT KAPSZ? ===== -->
+    <section id="mit" class="pt-[90px] pb-[91px] flex flex-col items-center">
+        <div class="w-[840px] text-center mb-[60px] flex flex-col items-center gap-[30px]">
+            <h2 class="text-dryp-blue text-[48px] font-medium">Mit kapsz a DRYP-pel?</h2>
+            <p class="text-dryp-gray text-lg font-medium">A DRYP egy HoReCa-ra optimalizált víz- és szódarendszer,<br>ami minden nap ugyanazt a tiszta, friss ízt adja – palackok nélkül.</p>
+        </div>
+
+        <!-- 2x3 Feature grid -->
+        <div class="w-[1060px] grid grid-cols-2 gap-[40px]">
+            <!-- Card 1: Tiszta ivóvíz -->
+            <div class="relative w-[510px] h-[310px] rounded-[30px] overflow-hidden">
+                <img class="w-full h-full object-cover" src="public/images/unnamed.png" alt="">
+                <div class="absolute inset-0 bg-gradient-to-b from-black/30 to-transparent"></div>
+                <div class="absolute top-[40px] left-[30px] text-white text-[32px] font-medium leading-tight w-[366px]">Tiszta ivóvíz</div>
+                <div class="absolute top-[30px] right-[30px] w-[80px] h-[80px] bg-white/30 backdrop-blur-sm rounded-full flex items-center justify-center">
+                    <img src="public/images/interface-weather-rain-drop-drops-rain-rainy-meteorology-water-precipitation-weather-streamline-core.svg" alt="" class="w-7 h-7">
+                </div>
+            </div>
+            <!-- Card 2: Stabil minőség -->
+            <div class="relative w-[510px] h-[310px] rounded-[30px] overflow-hidden">
+                <img class="w-full h-full object-cover" src="public/images/rectangle-3222.png" alt="">
+                <div class="absolute inset-0 bg-gradient-to-b from-black/30 to-transparent"></div>
+                <div class="absolute top-[40px] left-[30px] text-white text-[32px] font-medium leading-tight w-[366px]">Stabil minőség minden nap</div>
+                <div class="absolute top-[30px] right-[30px] w-[80px] h-[80px] bg-white/30 backdrop-blur-sm rounded-full flex items-center justify-center">
+                    <img src="public/images/interface-favorite-heart-reward-social-rating-media-heart-it-like-favorite-love-streamline-core.svg" alt="" class="w-7 h-7">
+                </div>
+            </div>
+            <!-- Card 3: Ivóvíz és szóda -->
+            <div class="relative w-[510px] h-[310px] rounded-[30px] overflow-hidden">
+                <img class="w-full h-full object-cover" src="public/images/rectangle-3224.png" alt="">
+                <div class="absolute inset-0 bg-gradient-to-b from-black/30 to-transparent"></div>
+                <div class="absolute top-[40px] left-[30px] text-white text-[32px] font-medium leading-tight w-[366px]">Ivóvíz és szóda<br>egy rendszerben</div>
+                <div class="absolute top-[30px] right-[30px] w-[80px] h-[80px] bg-white/30 backdrop-blur-sm rounded-full flex items-center justify-center">
+                    <img src="public/images/interface-edit-flll-color-bucket-color-colors-design-paint-painting-streamline-core.svg" alt="" class="w-7 h-7">
+                </div>
+            </div>
+            <!-- Card 4: Professzionális telepítés -->
+            <div class="relative w-[510px] h-[310px] rounded-[30px] overflow-hidden">
+                <img class="w-full h-full object-cover" src="public/images/rectangle-3225.png" alt="">
+                <div class="absolute inset-0 bg-gradient-to-b from-black/30 to-transparent"></div>
+                <div class="absolute top-[40px] left-[30px] text-white text-[32px] font-medium leading-tight w-[366px]">Professzionális telepítés és szerviz</div>
+                <div class="absolute top-[30px] right-[30px] w-[80px] h-[80px] bg-white/30 backdrop-blur-sm rounded-full flex items-center justify-center">
+                    <img src="public/images/interface-upload-laptop-arrow-computer-download-internet-laptop-network-server-up-upload-streamline-core.svg" alt="" class="w-7 h-7">
+                </div>
+            </div>
+            <!-- Card 5: Kiszámítható költségek -->
+            <div class="relative w-[510px] h-[310px] rounded-[30px] overflow-hidden">
+                <img class="w-full h-full object-cover" src="public/images/rectangle-3228.png" alt="">
+                <div class="absolute inset-0 bg-gradient-to-b from-black/30 to-transparent"></div>
+                <div class="absolute top-[40px] left-[30px] text-white text-[32px] font-medium leading-tight w-[366px]">Kiszámítható költségek</div>
+                <div class="absolute top-[30px] right-[30px] w-[80px] h-[80px] bg-white/30 backdrop-blur-sm rounded-full flex items-center justify-center">
+                    <img src="public/images/money-cash-dollar-coin-accounting-billing-payment-cash-coin-currency-money-finance-streamline-core.svg" alt="" class="w-7 h-7">
+                </div>
+            </div>
+            <!-- Card 6: Bérelhető rendszer -->
+            <div class="relative w-[510px] h-[310px] rounded-[30px] overflow-hidden">
+                <img class="w-full h-full object-cover" src="public/images/rectangle-3229.png" alt="">
+                <div class="absolute inset-0 bg-gradient-to-b from-black/30 to-transparent"></div>
+                <div class="absolute top-[40px] left-[30px] text-white text-[32px] font-medium leading-tight w-[366px]">Bérelhető<br>rendszer</div>
+                <div class="absolute top-[30px] right-[30px] w-[80px] h-[80px] bg-white/30 backdrop-blur-sm rounded-full flex items-center justify-center">
+                    <img src="public/images/interface-arrows-reload-2-arrows-load-arrow-sync-square-loading-reload-synchronize-streamline-core.svg" alt="" class="w-7 h-7">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 05 MIÉRT A DRYP? ===== -->
+    <section id="miert" class="flex flex-col items-center">
+        <!-- Title + subtitle -->
+        <div class="w-[840px] text-center flex flex-col items-center gap-[30px] mb-[90px]">
+            <h2 class="text-dryp-blue text-[48px] font-medium">Miért a DRYP?</h2>
+            <p class="text-dryp-gray text-lg font-medium">Több mint 10 éves italtechnikai tapasztalattal és 300+ aktív HoReCa partnerrel biztos szakmai hátteret nyújtunk. Saját szervizcsapatunk a telepítéstől kezdve a folyamatos támogatásig végigkíséri partnereinket.</p>
+        </div>
+
+        <!-- Banner image -->
+        <div class="w-[1440px] h-[500px] overflow-hidden">
+            <img class="w-full h-full object-cover" src="public/images/38691999ac65a8aab3673966e29b4bee29072a21.png" alt="">
+        </div>
+
+        <!-- CTA button -->
+        <div class="text-center mt-[90px] mb-[60px]">
+            <a href="#kapcsolat" class="inline-block gradient-btn px-10 py-[15px] rounded-[60px] text-dryp-blue text-lg font-semibold hover:shadow-lg hover:scale-105 transition-all">
+                Ingyenes HoReCa konzultációra jelentkezem!
+            </a>
+        </div>
+
+        <!-- Trust stats with 3D bottle render -->
+        <div class="relative w-[1291px] mb-[28px]" style="height: 1192px;">
+            <!-- Blurred gradient ellipse -->
+            <div class="absolute top-[61px] left-1/2 -translate-x-1/2 w-[991px] h-[991px] rounded-full" style="background: linear-gradient(-90deg, #ede8ca, #a7e7e8); filter: blur(216px);"></div>
+
+            <!-- Center bottle image -->
+            <img class="absolute inset-0 w-[1291px] h-[1192px] object-contain" src="public/images/source-03-v-00-v.png" alt="">
+
+            <!-- Center text -->
+            <div class="absolute top-[433px] left-1/2 -translate-x-1/2 w-[343px] text-center text-dryp-blue text-[40px] font-medium leading-[60px]">
+                Egyszerű.<br>Átlátható.<br>Tervezhető.
+            </div>
+
+            <!-- Lines decoration -->
+            <img src="public/images/line-17.svg" alt="" class="absolute top-[182px] left-[149px]">
+            <img src="public/images/line-18.svg" alt="" class="absolute top-[182px] right-[149px]">
+            <img src="public/images/line-19.svg" alt="" class="absolute top-[938px] left-[149px]">
+            <img src="public/images/line-20.svg" alt="" class="absolute top-[938px] right-[149px]">
+
+            <!-- Top-left stat -->
+            <div class="absolute top-[44px] left-[5px] p-[30px] bg-white rounded-[30px]">
+                <p class="w-[254px] text-right text-[26px] font-medium"><span class="text-dryp-gray">10+ év</span><span class="text-dryp-blue"> italtechnikai háttér</span></p>
+            </div>
+            <!-- Top-right stat -->
+            <div class="absolute top-[44px] right-[5px] p-[30px] bg-white rounded-[30px]">
+                <p class="w-[254px] text-[26px] font-medium"><span class="text-dryp-gray"> 300+ aktív </span><span class="text-dryp-blue">HoReCa partner</span></p>
+            </div>
+            <!-- Bottom-left stat -->
+            <div class="absolute top-[962px] left-[5px] p-[30px] bg-white rounded-[30px]">
+                <p class="w-[254px] text-right text-[26px] font-medium"><span class="text-dryp-blue">saját belső </span><span class="text-dryp-gray">szervizcsapat</span></p>
+            </div>
+            <!-- Bottom-right stat -->
+            <div class="absolute top-[962px] right-[5px] p-[30px] bg-white rounded-[30px]">
+                <p class="w-[254px] text-[26px] font-medium tracking-[-0.02em]"><span class="text-dryp-blue">telepítés után is </span><span class="text-dryp-gray">elérhető támogatás</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 06 HORECA CSOMAGOK ===== -->
+    <section id="hogyan" class="flex flex-col items-center">
+        <!-- Header -->
+        <div class="w-[840px] text-center flex flex-col items-center gap-[30px] mb-[50px]">
+            <h2 class="text-dryp-blue text-[48px] font-medium">DRYP HoReCa csomagok</h2>
+            <p class="text-dryp-gray text-lg font-medium">Három csomag, különböző igényekre – ugyanazzal a stabil minőséggel és teljes<br>körű támogatással.</p>
+        </div>
+
+        <!-- 3 Packages -->
+        <div class="flex justify-center gap-[40px] mb-[80px]">
+            <!-- BASIC -->
+            <div class="w-[400px] p-[30px] rounded-[30px] flex flex-col items-center gap-[30px] pkg-basic">
+                <div class="flex flex-col items-center gap-2.5 w-full">
+                    <img src="public/images/vector.svg" alt="DRYP" class="w-[140px] h-auto">
+                    <h3 class="text-dryp-blue text-[32px] font-medium text-center w-full">basic</h3>
+                </div>
+                <div class="w-[400px] px-[30px] py-10 bg-white flex flex-col items-center gap-[30px]">
+                    <p class="text-dryp-blue text-base font-medium text-center w-full">Tisztított víz</p>
+                    <div class="w-[354px] gradient-divider"></div>
+                    <p class="text-dryp-blue text-base font-bold text-center w-full">Tiszta víz, egyszerűen.</p>
+                    <div class="w-[354px] gradient-divider"></div>
+                    <p class="text-dryp-blue text-base font-medium text-center w-full">Ideális választás azoknak a helyeknek,<br>ahol a stabil minőség az első lépés.</p>
+                    <div class="w-[354px] gradient-divider"></div>
+                    <p class="text-dryp-blue text-base font-bold text-center w-full">Mit tartalmaz:</p>
+                    <ul class="text-dryp-blue text-base font-medium text-left w-full pl-6 list-disc space-y-0.5">
+                        <li>Ultrafiltrációs vízszűrő rendszer</li>
+                        <li>Klór- és szennyeződésmentes ivóvíz</li>
+                        <li>Éves karbantartás és szűrőcsere</li>
+                        <li>Palackok nélküli, helyben szűrt víz</li>
+                        <li>Üvegek: DRYP üvegek megvásárolhatók kedvezményesen</li>
+                    </ul>
+                    <div class="w-[354px] gradient-divider"></div>
+                    <div class="flex flex-col items-center gap-10 w-full">
+                        <p class="text-dryp-blue text-base font-bold text-center">Ha tiszta, jó ízű vizet szeretnél, felesleges bonyolítás nélkül.</p>
+                        <a href="#kapcsolat" class="gradient-btn px-10 py-[15px] rounded-[60px] text-dryp-blue text-lg font-semibold hover:shadow-lg hover:scale-105 transition-all">
+                            Érdekel a BASIC csomag
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PRO -->
+            <div class="w-[400px] p-[30px] rounded-[30px] flex flex-col items-center gap-[31px] pkg-pro">
+                <div class="flex flex-col items-center gap-2.5 w-full">
+                    <img src="public/images/vector.svg" alt="DRYP" class="w-[140px] h-auto">
+                    <h3 class="text-dryp-blue text-[32px] font-medium text-center w-full">pro</h3>
+                </div>
+                <div class="w-[400px] px-[30px] py-10 bg-white flex flex-col items-center gap-[30px]">
+                    <p class="text-dryp-blue text-base font-medium text-center w-full">Tisztított víz + szóda + üvegek</p>
+                    <div class="w-[354px] gradient-divider"></div>
+                    <p class="text-dryp-blue text-base font-bold text-center w-full">A vendéglátás alapértelmezett megoldása.</p>
+                    <div class="w-[354px] gradient-divider"></div>
+                    <p class="text-dryp-blue text-base font-medium text-center w-full">Bérelhető, komplett rendszer azoknak,<br>akik már szódára is szükségük van.</p>
+                    <div class="w-[354px] gradient-divider"></div>
+                    <p class="text-dryp-blue text-base font-bold text-center w-full">Mit tartalmaz:</p>
+                    <ul class="text-dryp-blue text-base font-medium text-left w-full pl-6 list-disc space-y-0.5">
+                        <li>Ultrafiltrációs vízszűrő rendszer</li>
+                        <li>Tisztított ivóvíz + szóda</li>
+                        <li>Elegáns csapolótornyos megoldás</li>
+                        <li>Telepítés, szerviz, karbantartás</li>
+                        <li>Bérelhető konstrukció</li>
+                        <li>Üvegek: 10 db DRYP üveg ajándék / év</li>
+                    </ul>
+                    <div class="w-[354px] gradient-divider"></div>
+                    <div class="flex flex-col items-center gap-10 w-full">
+                        <p class="text-dryp-blue text-base font-bold text-center">Gyorsabb kiszolgálás, kevesebb logisztika, egységes minőség.</p>
+                        <a href="#kapcsolat" class="gradient-btn px-10 py-[15px] rounded-[60px] text-dryp-blue text-lg font-semibold hover:shadow-lg hover:scale-105 transition-all">
+                            Érdekel a PRO csomag
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PREMIUM -->
+            <div class="w-[400px] p-[30px] rounded-[30px] flex flex-col items-center gap-[30px] pkg-premium">
+                <div class="flex flex-col items-center gap-2.5 w-full">
+                    <img src="public/images/vector.svg" alt="DRYP" class="w-[140px] h-auto">
+                    <h3 class="text-dryp-blue text-[32px] font-medium text-center w-full">premium</h3>
+                </div>
+                <div class="w-[400px] px-[30px] py-10 bg-white flex flex-col items-center gap-[30px]">
+                    <p class="text-dryp-blue text-base font-medium text-center w-full">Tisztított víz + szóda + üvegek + több kiállás</p>
+                    <div class="w-[354px] gradient-divider"></div>
+                    <p class="text-dryp-blue text-base font-bold text-center w-full">Nagyobb forgalomra, komplex igényekre.</p>
+                    <div class="w-[354px] gradient-divider"></div>
+                    <p class="text-dryp-blue text-base font-medium text-center w-full">Ha több pult, több kiállás, több vendég van – akkor ez a rendszer dolgozik Neked.</p>
+                    <div class="w-[354px] gradient-divider"></div>
+                    <p class="text-dryp-blue text-base font-bold text-center w-full">Mit tartalmaz:</p>
+                    <ul class="text-dryp-blue text-base font-medium text-left w-full pl-6 list-disc space-y-0.5">
+                        <li>Több kiállásos, több rendszeres telepítés</li>
+                        <li>Ultrafiltrációs vízszűrő rendszer minden kiállásnál</li>
+                        <li>Ivóvíz és szóda párhuzamos kiszolgálása</li>
+                        <li>Teljes körű szerviz és karbantartás</li>
+                        <li>Testre szabott rendszerkialakítás</li>
+                        <li>Üvegek: Rendszerenként 15 db DRYP üveg ajándék / év</li>
+                    </ul>
+                    <div class="w-[354px] gradient-divider"></div>
+                    <div class="flex flex-col items-center gap-10 w-full">
+                        <p class="text-dryp-blue text-base font-bold text-center">Skálázható megoldás prémium helyeknek és láncoknak.</p>
+                        <a href="#kapcsolat" class="gradient-btn px-10 py-[15px] rounded-[60px] text-dryp-blue text-lg font-semibold hover:shadow-lg hover:scale-105 transition-all">
+                            Érdekel a PREMIUM csomag
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Banner image -->
+        <div class="w-[1440px] h-[500px] overflow-hidden">
+            <img class="w-full h-full object-cover" src="public/images/photo.png" alt="">
+        </div>
+    </section>
+
+    <!-- ===== 07 INDULJUNK EL! ===== -->
+    <section id="kapcsolat" class="py-[80px] flex justify-center">
+        <div class="w-[1060px] relative">
+            <!-- Gradient bottom background -->
+            <div class="absolute bottom-0 left-0 w-full h-[554px] rounded-[30px] start-gradient"></div>
+            <!-- White top card -->
+            <div class="relative w-full bg-white rounded-t-[30px]" style="min-height: 524px;">
+                <div class="px-[50px] py-[60px] flex flex-col items-center gap-10">
+                    <div class="flex flex-col items-center gap-5 text-center">
+                        <h2 class="text-dryp-blue text-[48px] font-medium">Induljunk el!</h2>
+                        <div class="flex flex-col items-center gap-[30px]">
+                            <p class="w-[840px] text-dryp-blue text-lg font-medium">Telepítés és támogatás: nem hagyunk magadra a rendszerrel, hogy a vízkérdést egyszer és hosszú távra rendezd.</p>
+
+                            <!-- Steps -->
+                            <div class="flex justify-center items-center gap-5">
+                                <div class="pl-1.5 pr-[30px] py-[5px] rounded-[30px] border border-dryp-gray flex items-center gap-2.5">
+                                    <div class="px-[30px] py-[5px] bg-dryp-gray rounded-[30px] flex items-center justify-center">
+                                        <span class="text-white text-lg font-medium">1.</span>
+                                    </div>
+                                    <span class="text-dryp-gray text-lg font-medium">Felmérés</span>
+                                </div>
+                                <div class="pl-1.5 pr-[30px] py-[5px] rounded-[30px] border border-dryp-gray flex items-center gap-2.5">
+                                    <div class="px-[30px] py-[5px] bg-dryp-gray rounded-[30px] flex items-center justify-center">
+                                        <span class="text-white text-lg font-medium">2.</span>
+                                    </div>
+                                    <span class="text-dryp-gray text-lg font-medium">Telepítés</span>
+                                </div>
+                                <div class="pl-1.5 pr-[30px] py-[5px] rounded-[30px] border border-dryp-gray flex items-center gap-2.5">
+                                    <div class="px-[30px] py-[5px] bg-dryp-gray rounded-[30px] flex items-center justify-center">
+                                        <span class="text-white text-lg font-medium">3.</span>
+                                    </div>
+                                    <span class="text-dryp-gray text-lg font-medium">Beállítás</span>
+                                </div>
+                                <div class="pl-1.5 pr-[30px] py-[5px] rounded-[30px] border border-dryp-gray flex items-center gap-2.5">
+                                    <div class="px-[30px] py-[5px] bg-dryp-gray rounded-[30px] flex items-center justify-center">
+                                        <span class="text-white text-lg font-medium">4.</span>
+                                    </div>
+                                    <span class="text-dryp-gray text-lg font-medium">Támogatás</span>
+                                </div>
+                            </div>
+
+                            <p class="w-[840px] text-dryp-blue text-lg font-medium">Kérj ingyenes konzultációt,<br>és megnézzük, melyik DRYP megoldás illik a helyedhez.</p>
+                        </div>
+                    </div>
+                    <a href="#" class="gradient-btn px-10 py-[15px] rounded-[60px] text-dryp-blue text-lg font-semibold hover:shadow-lg hover:scale-105 transition-all">
+                        Ingyenes HoReCa konzultációra jelentkezem!
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== 09 FOOTER 3D + FOOTER BAR ===== -->
+    <footer class="relative overflow-hidden" style="height: 924px;">
+        <!-- Background -->
+        <div class="absolute inset-0 pointer-events-none">
+            <img class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1560px] h-[878px] object-cover" src="public/images/hero-3-dbg.png" alt="" style="transform: translateX(-50%) rotate(180deg);">
+            <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1440px] h-[737px]" style="background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(191,218,223,0.176) 44%, rgba(165,218,229,0.35) 62.77%, #4377af 100%);"></div>
+            <img class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1560px] h-[878px] object-cover" src="public/images/hero-3-d-bottle.png" alt="" style="transform: translateX(-50%) rotate(180deg);">
+        </div>
+
+        <!-- Footer bar -->
+        <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1140px] h-[60px] rounded-t-[30px] bg-white/10 flex items-center justify-center px-[111px] gap-[268px] z-10">
+            <div class="flex items-center gap-10 w-[447px]">
+                <span class="text-white text-base font-semibold leading-6 whitespace-nowrap">dryp. water 2026.</span>
+                <span class="text-white text-base font-semibold leading-6">Impresszum</span>
+                <span class="w-px h-[17px] border-r border-white"></span>
+                <span class="text-white text-base font-semibold leading-6">ÁSZF</span>
+            </div>
+            <span class="text-white text-base font-semibold leading-6 whitespace-nowrap">Designed by Freebeunique</span>
+        </div>
+    </footer>
+
+</body>
+</html>
